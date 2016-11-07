@@ -1,0 +1,30 @@
+{
+  "name": "SITA Wrapper",
+  "version": "1.0.0",
+  "description": "A simple wrapper for the SITA airports API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nab0310/IATA-CityCode-JS-Wrapper.git"
+  },
+  "keywords": [
+    "api",
+    "google",
+    "google-flights",
+    "flights",
+    "airline",
+    "flight"
+  ],
+  "author": "Nick Behrens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nab0310/IATA-CityCode-JS-Wrapper/issues"
+  },
+  "homepage": "https://github.com/nab0310/IATA-CityCode-JS-Wrapper#readme",
+  "dependencies": {
+    "request": "^2.75.0"
+  }
+}
