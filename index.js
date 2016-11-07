@@ -1,12 +1,6 @@
 module.exports = function(apikey){
   return {
     api: function(lat, lng, maxAirports, fn){
-      var express = require('express')
-      , cors = require('cors')
-      , app = express();
-
-      app.options('*', cors());
-      
       var request = require('request');
       var endPoint = "https://airport.api.aero/airport/nearest/"+lat+"/"+lng+"?maxAirports="+maxAirports+"&user_key="+apikey;
 
