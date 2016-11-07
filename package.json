@@ -1,5 +1,5 @@
 {
-  "name": "SITA Wrapper",
+  "name": "SITA-JS-Wrapper",
   "version": "1.0.0",
   "description": "A simple wrapper for the SITA airports API",
   "main": "index.js",
